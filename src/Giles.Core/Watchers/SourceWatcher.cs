@@ -107,7 +107,8 @@ namespace Giles.Core.Watchers
                                });
 
             listener.DisplayResults();
-
+            listener.DisplayVerboseResults();
+            
             LastRunResults.GilesTestListener = listener;
         }
     }

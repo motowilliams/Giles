@@ -107,6 +107,7 @@ namespace Giles.Core.Runners
                                           totalResults[TestState.Passed],
                                           totalResults[TestState.Failed],
                                           totalResults[TestState.Ignored]));
+
             return messages;
         }
 
